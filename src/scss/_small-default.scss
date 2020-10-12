@@ -1,0 +1,144 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// -----------------------BODY--------------------------
+body {
+  font-family: $defaultFont;
+  font-weight: $normalWeight;
+  font-size: 16px;
+}
+
+// -----------------------header--------------------------
+header {
+  background-color: $PrimaryColor;
+  color: $SecondaryColor;
+  padding: 1rem $gutter;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: $normalWeight;
+  }
+
+  h2 {
+    font-size: 1.05rem;
+    font-weight: $normalWeight;
+  }
+}
+// -----------------------navigation--------------------------
+
+nav {
+  background-color: $SecondaryColor;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  ul li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  ul li:last-child {
+    border-right: none;
+  }
+
+  ul li a {
+    display: block;
+    text-align: center;
+    font-weight: $boldWeight;
+    padding: 0.5rem 0;
+    color: $PrimaryColor;
+    text-decoration: none;
+    transition: background 0.75s ease, color 0.75s ease;
+  }
+  ul li.active a {
+    background-color: darken($SecondaryColor, 10%);
+  }
+  ul li a:hover {
+    color: $SecondaryColor;
+    background-color: $PrimaryColor;
+  }
+}
+// -----------------------Main--------------------------
+main {
+  figure.banner {
+    width: 100%;
+  }
+
+  figure.banner img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 1rem 0 0 $gutter;
+    color: $PrimaryColor;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.75rem 0 0 $gutter;
+    color: lighten($PrimaryColor, 10%);
+  }
+  h3 {
+    font-size: 1.2rem;
+    color: lighten($PrimaryColor, 20%);
+  }
+  p {
+    line-height: 130%;
+    color: $fontColor;
+  }
+  hr.fadeAway {
+    background: linear-gradient(
+      to right,
+      rgba(66, 78, 100, 1) 0%,
+      rgba(66, 78, 100, 0.01) 100%
+    );
+    height: 2px;
+    border: none;
+    margin: 0 $gutter;
+  }
+
+  figure.photo {
+    width: 100%-$gutterdbl;
+    margin: 0.5rem $gutter;
+  }
+
+  figure.photo img {
+    width: 100%;
+  }
+  figure.photo figcaption {
+    text-align: center;
+    color: $PrimaryColor;
+  }
+
+  div.blog article {
+    margin: 0.5rem $gutter;
+    width: 100% - $gutterdbl;
+  }
+}
+// -----------------------FOOTER--------------------------
+footer {
+  width: 100%;
+  background-color: $PrimaryColor;
+  p {
+    text-align: center;
+    color: $SecondaryColor;
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+  p a {
+    color: $SecondaryColor;
+  }
+}
+// ---------------ClearFix-------------------
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
