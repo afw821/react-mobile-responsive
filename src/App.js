@@ -24,7 +24,7 @@ class App extends Component {
               <Route path="/new" component={NewPage} />
               {/* <Route path="/not-found" component={NotFound}></Route> */}
               <Redirect from="/" exact to="/new" />
-              <Redirect to="/not-found" />
+              {/* <Redirect to="/not-found" /> */}
             </Switch>
           </main>
 
