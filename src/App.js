@@ -21,10 +21,10 @@ class App extends Component {
 
           <main className="clearfix">
             <Switch>
-              <Route path="/new" component={NewPage} />
+              <Route path="/react-mobile-responsive" component={NewPage} />
               {/* <Route path="/not-found" component={NotFound}></Route> */}
               <Redirect from="/" exact to="/new" />
-              {/* <Redirect to="/not-found" /> */}
+              <Redirect to="/not-found" />
             </Switch>
           </main>
 
