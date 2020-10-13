@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-mobile-responsive/static/css/main.e3158681.chunk.css",
-    "main.js": "/react-mobile-responsive/static/js/main.0fbd022f.chunk.js",
-    "main.js.map": "/react-mobile-responsive/static/js/main.0fbd022f.chunk.js.map",
-    "runtime-main.js": "/react-mobile-responsive/static/js/runtime-main.062e4f40.js",
-    "runtime-main.js.map": "/react-mobile-responsive/static/js/runtime-main.062e4f40.js.map",
-    "static/js/2.21230ce8.chunk.js": "/react-mobile-responsive/static/js/2.21230ce8.chunk.js",
-    "static/js/2.21230ce8.chunk.js.map": "/react-mobile-responsive/static/js/2.21230ce8.chunk.js.map",
-    "index.html": "/react-mobile-responsive/index.html",
-    "precache-manifest.a9919f4d2f69dac8e9d06ff3a0988795.js": "/react-mobile-responsive/precache-manifest.a9919f4d2f69dac8e9d06ff3a0988795.js",
-    "service-worker.js": "/react-mobile-responsive/service-worker.js",
-    "static/css/main.e3158681.chunk.css.map": "/react-mobile-responsive/static/css/main.e3158681.chunk.css.map",
-    "static/js/2.21230ce8.chunk.js.LICENSE.txt": "/react-mobile-responsive/static/js/2.21230ce8.chunk.js.LICENSE.txt",
-    "static/media/banner01.jpg": "/react-mobile-responsive/static/media/banner01.f1cb82c4.jpg",
-    "static/media/black.jpg": "/react-mobile-responsive/static/media/black.e9f17e46.jpg",
-    "static/media/blue.jpg": "/react-mobile-responsive/static/media/blue.07b6e041.jpg",
-    "static/media/styles.scss": "/react-mobile-responsive/static/media/polonez_car.234c8ddf.png",
-    "static/media/red.jpg": "/react-mobile-responsive/static/media/red.98a314ee.jpg",
-    "static/media/silver.jpg": "/react-mobile-responsive/static/media/silver.888aebbe.jpg"
+    "main.css": "/new/static/css/main.1e3c6df5.chunk.css",
+    "main.js": "/new/static/js/main.e250bd8a.chunk.js",
+    "main.js.map": "/new/static/js/main.e250bd8a.chunk.js.map",
+    "runtime-main.js": "/new/static/js/runtime-main.3ce6cf30.js",
+    "runtime-main.js.map": "/new/static/js/runtime-main.3ce6cf30.js.map",
+    "static/js/2.21230ce8.chunk.js": "/new/static/js/2.21230ce8.chunk.js",
+    "static/js/2.21230ce8.chunk.js.map": "/new/static/js/2.21230ce8.chunk.js.map",
+    "index.html": "/new/index.html",
+    "precache-manifest.88c9197aa61a87bdc45c2dc14579c09d.js": "/new/precache-manifest.88c9197aa61a87bdc45c2dc14579c09d.js",
+    "service-worker.js": "/new/service-worker.js",
+    "static/css/main.1e3c6df5.chunk.css.map": "/new/static/css/main.1e3c6df5.chunk.css.map",
+    "static/js/2.21230ce8.chunk.js.LICENSE.txt": "/new/static/js/2.21230ce8.chunk.js.LICENSE.txt",
+    "static/media/banner01.jpg": "/new/static/media/banner01.f1cb82c4.jpg",
+    "static/media/black.jpg": "/new/static/media/black.e9f17e46.jpg",
+    "static/media/blue.jpg": "/new/static/media/blue.07b6e041.jpg",
+    "static/media/styles.scss": "/new/static/media/polonez_car.234c8ddf.png",
+    "static/media/red.jpg": "/new/static/media/red.98a314ee.jpg",
+    "static/media/silver.jpg": "/new/static/media/silver.888aebbe.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.062e4f40.js",
+    "static/js/runtime-main.3ce6cf30.js",
     "static/js/2.21230ce8.chunk.js",
-    "static/css/main.e3158681.chunk.css",
-    "static/js/main.0fbd022f.chunk.js"
+    "static/css/main.1e3c6df5.chunk.css",
+    "static/js/main.e250bd8a.chunk.js"
   ]
 }
