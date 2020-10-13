@@ -6,16 +6,16 @@ const NavBar = ({ activeTab }) => {
     <nav className="clearfix">
       <ul>
         <li className={activeTab.name === "New" ? "active" : ""}>
-          <Link to="/new">New</Link>
+          <Link to="/react-mobile-responsive">New</Link>
         </li>
         <li>
-          <Link to="/new">Used</Link>
+          <Link to="/react-mobile-responsive">Used</Link>
         </li>
         <li>
-          <Link to="/new">Service</Link>
+          <Link to="/react-mobile-responsive">Service</Link>
         </li>
         <li>
-          <Link to="/new">Location</Link>
+          <Link to="/react-mobile-responsive">Location</Link>
         </li>
       </ul>
     </nav>
