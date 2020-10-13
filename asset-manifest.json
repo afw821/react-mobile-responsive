@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-mobile-responsive/static/css/main.e3158681.chunk.css",
-    "main.js": "/react-mobile-responsive/static/js/main.7bff20e8.chunk.js",
-    "main.js.map": "/react-mobile-responsive/static/js/main.7bff20e8.chunk.js.map",
+    "main.js": "/react-mobile-responsive/static/js/main.d58e6596.chunk.js",
+    "main.js.map": "/react-mobile-responsive/static/js/main.d58e6596.chunk.js.map",
     "runtime-main.js": "/react-mobile-responsive/static/js/runtime-main.062e4f40.js",
     "runtime-main.js.map": "/react-mobile-responsive/static/js/runtime-main.062e4f40.js.map",
     "static/js/2.21230ce8.chunk.js": "/react-mobile-responsive/static/js/2.21230ce8.chunk.js",
     "static/js/2.21230ce8.chunk.js.map": "/react-mobile-responsive/static/js/2.21230ce8.chunk.js.map",
     "index.html": "/react-mobile-responsive/index.html",
-    "precache-manifest.b032e1f1a83da03353c111166433b7b0.js": "/react-mobile-responsive/precache-manifest.b032e1f1a83da03353c111166433b7b0.js",
+    "precache-manifest.dcbc8701591b1593e6bf279d7b15275b.js": "/react-mobile-responsive/precache-manifest.dcbc8701591b1593e6bf279d7b15275b.js",
     "service-worker.js": "/react-mobile-responsive/service-worker.js",
     "static/css/main.e3158681.chunk.css.map": "/react-mobile-responsive/static/css/main.e3158681.chunk.css.map",
     "static/js/2.21230ce8.chunk.js.LICENSE.txt": "/react-mobile-responsive/static/js/2.21230ce8.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.062e4f40.js",
     "static/js/2.21230ce8.chunk.js",
     "static/css/main.e3158681.chunk.css",
-    "static/js/main.7bff20e8.chunk.js"
+    "static/js/main.d58e6596.chunk.js"
   ]
 }
