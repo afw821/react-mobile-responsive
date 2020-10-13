@@ -23,7 +23,7 @@ class App extends Component {
             <Switch>
               <Route path="/react-mobile-responsive" component={NewPage} />
               {/* <Route path="/not-found" component={NotFound}></Route> */}
-              <Redirect from="/" exact to="/new" />
+              <Redirect from="/" exact to="/react-mobile-responsive" />
               <Redirect to="/not-found" />
             </Switch>
           </main>
